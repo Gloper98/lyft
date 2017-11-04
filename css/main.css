@@ -1,0 +1,206 @@
+/*SETEAR NUESTROS ARCHIVOS: sea igual para todos los navegadores*/
+body {
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 16px;
+ line-height: 1.5;
+ margin: 0;
+ padding: 0;
+}
+/* ETIQUETAS Y CLASES REUTILIZABLES*/
+a {
+ margin:0;
+ text-decoration: none;
+ }
+ section {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ }
+ h1 {
+   margin: 0;
+ }
+ section .container {
+ width: 100%;
+ margin:0;
+ text-align: center;
+ }
+/* ESTILOS AL ENCABEZADO*/
+header{
+ background-color: transparent;
+ margin:0;
+ height: 15%;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 1000;
+}
+header nav {
+ margin: 10px;
+ height: 80%;
+ width:99%;
+}
+header nav div {
+ display: inline-block;
+ width: 49.5%;
+}
+header nav div  #logo-white { /* Estilos al logo del encabezado*/
+ position: relative;
+ cursor: pointer;
+ left: 10%;
+ top: 20px;
+ position: relative;
+}
+header nav div a img {
+  max-width: 100%;
+  width: 9%;
+}
+/*Estilos a la lista que contiene la barra de menu*/
+header nav div ul {
+  margin-bottom: 0;
+  margin-top: 32px;
+}
+header nav div ul .list-nav {
+ display: inline-block;
+ font-size:  19px;
+ font-weight: 300;
+ left: 24%;
+ list-style: none;
+ margin: 0 23px;
+ padding: 0;
+ position: relative;
+}
+nav div ul li .menu {
+  color: #fff;
+}
+/*Estilo pseudoclase a los link de la barra de menu*/
+nav div ul li a:hover{
+ color: #FF00BF
+}
+nav div ul li a #log-in { /* Estilos al Button*/
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 19px;
+  padding: 10px 17px;
+}
+/* ESTILOS A SECCIÓN FORM*/
+.section-form {
+  background-image: url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  padding: 3.4% 0;
+}
+section div .form {/* Estilos al box que envuelve al formulario*/
+ background-color: white;
+ left: 58%;
+ position: relative;
+ top: 53px;
+ width: 42%;
+}
+section div div .box-turn-miles {
+ padding: 45px;
+ padding-left: 60px;
+ text-align: left;
+}
+.title-form { /* Estilos al titulo del box formulario*/
+ color: #352384;
+ font-weight: 700;
+ font-size: 40px;
+ margin-bottom: 0;
+ margin-top: 0;
+ text-transform: uppercase;
+}
+#paragraph-form-one { /* Estilos al parrafo debajo del titulo del box formulario*/
+ color: #728099;
+ font-size: .875rem;
+ color: #728099;
+ margin-top: 0;
+ text-transform: uppercase;
+}
+section form .input-text {
+ border-bottom: 1px solid gray;
+ margin-bottom: 13px;
+}
+section form div input {
+ border: none;
+ color: #bfc7d9;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 16px;
+ margin-top: 8px;
+ outline: none;
+ padding-bottom: 4px;
+ width: 100%;
+}
+/* Estilos a los button*/
+form div .button-form {
+ cursor: pointer;
+ font-size: 16px;
+ padding: 15px 20px;
+}
+/* Estilos al primer button*/
+form div #button-form-one {
+ background-color: #FF00BF;
+ border-radius: 10px;
+ border:none;
+ color:  #fff;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+}
+/* Estilos al segundo button*/
+form div #button-form-two {
+ border:none;
+ background-color: transparent;
+ color: gray;
+ text-decoration: underline;
+}
+form div #button-form-two:hover {
+ color: #FF00BF;
+}
+/* Estilos a los párrafos depues de los button*/
+section div div div .paragraph-form-two {
+ font-size: 9px;
+ color:gray;
+ letter-spacing: 0.5px;
+}
+.paragraph-form-two-link {
+ color:#FF00BF;
+}
+/* ESTILOS A LA SECCIÓN DESPUÉS DE LA SECCION FORMULARIO*/
+.section-after-form {
+ background: linear-gradient(#76278f,#2b1e66);
+}
+section div .sub-container {
+ color: #f3f3f5;
+ display: inline-block;
+ margin: 20px;
+ margin-bottom: 4.8%;
+ width: 40%;
+ vertical-align: middle;
+}
+/* Estilo a los textos*/
+section div div div .three-files-text {
+  text-align: left;
+  padding: 0 30px;
+}
+section div div div div .three-subfile-text {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+section div div div div .paragraph-subfile-text {
+  font-weight: 300;
+}
+/* Estilos a la imagen del telefono*/
+.image-phone {
+  margin-top:20px;
+}
+#phone {
+  max-width: 100%;
+  width:73%;
+}
