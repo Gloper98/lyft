@@ -10,7 +10,7 @@ El reto consistió en replicar el sitio de **Lyft**.
 
 ## Colaboradores
 * Maria Crsitina Ortiz Villafuerte.
-* Any
+* Anny Fiorella Gutierrez Lopez.
 
 ## Descripción
 
